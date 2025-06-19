@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <div class="form-box">
+      <h2>Sign up</h2>
+      <form id="registerForm">
+        <div class="input-box">
+          <i class="fas fa-user"></i>
+          <input type="text" placeholder="Your Name" id="regName" required />
+        </div>
+        <div class="input-box">
+          <i class="fas fa-envelope"></i>
+          <input type="email" placeholder="Your Email" id="regEmail" required />
+        </div>
+        <div class="input-box">
+          <i class="fas fa-lock"></i>
+          <input type="password" placeholder="Password" id="regPassword" required />
+        </div>
+        <div class="input-box">
+          <i class="fas fa-lock"></i>
+          <input type="password" placeholder="Repeat your password" id="regPasswordRepeat" required />
+        </div>
+        <label class="checkbox-label">
+          <input type="checkbox" required />
+          I agree all statements in <a href="#">Terms of service</a>
+        </label>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+
+    <div class="image-box">
+      <img src="register.jpg" alt="Register image" />
+      <p class="member-link">
+        <a href="login.html">I am already member</a>
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
